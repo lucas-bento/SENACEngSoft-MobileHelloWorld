@@ -1,7 +1,11 @@
 {
-  "appId": "com.example.hello",
-  "appName": "Hello",
+  "appId": "com.example.app",
+  "appName": "App",
   "bundledWebRuntime": false,
   "npmClient": "npm",
-  "webDir": "www"
+  "webDir": "www",
+  "server": {
+    "url": "http://10.136.74.166:3333",
+    "hostname": "app"
+  }
 }
